@@ -1,0 +1,30 @@
+.header {
+  padding: 72px 0 48px;
+}
+
+.header h1 {
+  margin: 0 0 12px;
+  font-size: clamp(2rem, 5vw, 3rem);
+  letter-spacing: -0.02em;
+}
+
+.header p {
+  margin: 0 0 24px;
+  max-width: 40ch;
+  font-size: 1.125rem;
+}
+
+.header a {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: var(--accent-soft);
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.header a:hover {
+  background: var(--accent);
+  color: #fff;
+}
