@@ -1,5 +1,6 @@
 import { projects } from "../../data/projects"
 import PortfolioCard from "../portfolio-card/PortfolioCard"
+import './PortfolioList.css'
 
 
 function PortfolioList( ){

@@ -1,11 +1,16 @@
+import Footer from "./components/footer/Footer"
+import Header from "./components/header/Header"
 import ProjectList from "./components/portfolio-list/PortfolioList"
 
 function App() {
   return (
-    <main>
-      <h1>Dev Portfolio</h1>
-      <ProjectList/>
-    </main>
+    <>
+      <Header/>
+      <main>
+        <ProjectList />
+      </main>
+      <Footer />
+    </>
   )
 }
 
